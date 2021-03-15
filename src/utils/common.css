@@ -1,0 +1,595 @@
+.texe_left {
+		text-align: left;
+	}
+
+
+
+
+
+	.van-step__circle {
+		width: 14px;
+		height: 14px;
+	}
+
+	.van-step--vertical .van-step__line {
+		top: 45px;
+	}
+
+	.van-step--vertical .van-step__circle-container {
+		top: 45px;
+	}
+
+	.van-steps--vertical {
+		padding: 0 0 0 1.2rem;
+		margin-top: 33px;
+	}
+
+	.van-steps {
+		background: #F9F6F6;
+	}
+
+	.li_box {
+		width: 615px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 103px;
+		padding: 10px 50px 10px 23px;
+		box-sizing: border-box;
+	}
+
+	.li_box_left {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+	.li_box .span_1 {
+		font-size: 32px;
+		font-family: Source Han Sans CN;
+		font-weight: 400;
+		color: #3C4147;
+
+	}
+
+	.li_box .span_2 {
+
+
+		font-size: 25px;
+		font-family: Source Han Sans CN;
+		font-weight: 400;
+
+		color: #3C4147;
+
+	}
+
+	.new_li_box {
+
+
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+
+
+
+		opacity: 1;
+		border-radius: 8px;
+
+	}
+		.phoneList {
+			width: 692px;
+			height: 704px;
+			background: #FFFFFF;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+			opacity: 1;
+			border-radius: 11px;
+
+			padding: 0 38px;
+			box-sizing: border-box;
+			margin-bottom: 30px;
+		}
+
+	.phone_title {
+
+		font-size: 31px;
+		font-family: Source Han Sans CN;
+		font-weight: 400;
+
+		color: #3C4147;
+		opacity: 1;
+		margin-top: 30px;
+		display: inline-block;
+		text-align: left;
+		width: 100%;
+
+	}
+
+	.diagnose_jg {
+		display: flex;
+		flex-direction: column;
+
+
+
+
+	}
+
+	.diagnose_qs {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.van-grid .van-icon__image {
+		width: 167px;
+		height: 167px;
+	}
+
+	/* 	.tab1_box_linner {
+
+		border-bottom: 1px solid #7B95AC;
+		margin-bottom: 23px;
+		padding-bottom: 23px;
+
+	}
+
+	.tab1_box_linner:last-child {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	} */
+
+	.diagnose_wg {
+		border-bottom: 1px solid #7B95AC;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+
+	.diagnose_wg:last-child {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+
+	}
+
+	.diagnose_text_31 {
+		font-size: 31px;
+
+	}
+
+	.diagnose_text_26 {
+		font-size: 26px;
+
+	}
+
+	.diagnose_text_24 {
+		font-size: 24px;
+	}
+
+	.diagnose_nb .diagnose_rigt {
+		flex-direction: inherit;
+		align-items: flex-end;
+	}
+
+	.diagnose_text_21 {
+		font-size: 21px;
+
+
+
+	}
+
+	.diagnose_text_28 {
+		font-size: 28px;
+
+	}
+
+	.diagnose_text_29 {
+		font-size: 29px;
+	}
+
+	.diagnose_text_31,
+	.diagnose_text_26,
+	.diagnose_text_21,
+	.diagnose_text_28,
+	.diagnose_text_29,
+	.diagnose_text_24 {
+		text-align: left;
+		font-family: Roboto;
+		font-weight: 400;
+
+		color: #3C4147;
+		opacity: 1;
+	}
+
+	.diagnose_bx {
+		height: 194px;
+
+	}
+
+	.diagnose_bx .diagnose_rigt {
+		flex-direction: inherit;
+		align-items: flex-end;
+	}
+
+	.diagnose_wg,
+	.diagnose_bx,
+	.diagnose_jg,
+	.diagnose_qs {
+		height: 145px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+
+	.diagnose_left {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.diagnose_rigt {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.diagnose_rigt img {
+		width: 125px;
+		height: 101px;
+	}
+
+	.msgTopBox {
+		width: 100%;
+		height: 144px;
+		background: #fff;
+		margin-top: 16px;
+		padding: 0 50px;
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+	}
+
+	.masgMiniTop,
+	.masgMiniBottom {
+		width: 100%;
+		height: 50%;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.tab_box {
+		height: 100vh;
+		/* background: red; */
+		padding: 0 29px;
+
+	}
+
+	.tab_text.van-tabs.van-tabs--line {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.tab_text .van-tabs__content {
+		width: 100%;
+	}
+
+	.tab_text .van-tabs__wrap .van-tabs__line {
+		width: 100px;
+		height: 4px;
+	}
+
+	.tab_text .van-tabs__wrap {
+
+		width: 615px;
+		height: 71px;
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+		opacity: 1;
+		border-radius: 17px;
+		margin: 26px 0;
+	}
+
+	.tab_text .van-tab__text--ellipsis {
+		overflow: inherit
+	}
+
+	.tab_text .van-tab__text--ellipsis {
+		font-size: 31px;
+	}
+
+	.tabS {
+		width: 615px;
+		height: 71px;
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+		opacity: 1;
+		border-radius: 17px;
+
+		margin: 0 auto;
+
+	}
+
+	/* 	.masgMiniBottom {
+		width: 100%;
+		height: 50%;
+		background: red;
+
+	} */
+
+	.masgMiniTop span {
+
+		font-size: 28px;
+		font-family: Source Han Sans CN;
+		font-weight: 500;
+		line-height: 40px;
+		color: #3C4147;
+		opacity: 1;
+	}
+
+	.masgMiniBottom span {
+
+		font-size: 28px;
+		font-family: Source Han Sans CN;
+		font-weight: 500;
+		line-height: 40px;
+		color: #3C4147;
+		opacity: 1;
+	}
+
+	.tab1_box {
+		width: 100%;
+
+		padding: 25px 38px;
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+		opacity: 1;
+		border-radius: 11px;
+		box-sizing: border-box;
+		margin-bottom: 23px;
+	}
+
+	.tab1_boxrrr {
+		width: 669px;
+		height: 221px;
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+		opacity: 1;
+		border-radius: 11px;
+		padding: 16px 38px
+	}
+
+	.button_pay {
+		width: 135px;
+		height: 38px;
+		background: #45A4FE;
+		opacity: 1;
+		border-radius: 4px;
+		display: inline-block;
+		font-size: 24px;
+		font-family: Source Han Sans CN;
+		font-weight: 400;
+		line-height: 34px;
+		color: #FFFFFF;
+		opacity: 1;
+		text-align: center;
+		line-height: 38px;
+	}
+
+	.new_diagnose_jg {
+		height: 100%;
+		justify-content: space-between;
+	
+	
+	
+	}
+	
+	
+	
+	
+
+/*  详情页 */	
+.particulars_li_box {
+		width: 703px;
+		height: 131px;
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+		opacity: 1;
+		border-radius: 17px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	
+	}
+	
+	.particulars_phoneList {
+	
+	
+	
+		opacity: 1;
+		border-radius: 11px;
+	
+		padding: 0 37px;
+		box-sizing: border-box;
+		margin-bottom: 30px;
+		margin-top: 22px;
+	}
+	
+	.particulars_phoneList div {
+		display: inline-block;
+	}
+	
+	.particulars_li_box span {
+	
+		font-size: 28px;
+		font-family: Source Han Sans CN;
+		font-weight: 500;
+		line-height: 40px;
+		color: #3C4147;
+		opacity: 1;
+		margin-left: 25px;
+	
+	}
+	
+	.particulars_li_box div {
+		width: 197px;
+		height: 77px;
+		background: #45A4FE;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+		opacity: 1;
+		border-radius: 6px;
+		margin-right: 25px;
+		font-size: 26px;
+		font-family: Source Han Sans CN;
+		font-weight: 400;
+	
+		color: #FFFFFF;
+		opacity: 1;
+		line-height: 77px;
+	
+	}
+	
+	.topNavgtion {
+		width: 100%;
+		height: 99px;
+		background: #45A4FE;
+		opacity: 1;
+		box-sizing: border-box;
+		position: relative;
+	}
+	
+	.topNavgtion_title {
+	
+		font-size: 35px;
+		font-family: Source Han Sans CN;
+		font-weight: 500;
+		line-height: 50px;
+		color: #FFFFFF;
+		opacity: 1;
+		line-height: 99px;
+	}
+	
+	.topNavgtion_icon {
+		font-size: 38px;
+		position: absolute;
+		left: 40px;
+		top: 31px;
+	}
+	
+	.magStateBox {
+		width: 100%;
+		height: 144px;
+		background: #FFFFFF;
+		opacity: 1;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 25px 0px 45px;
+		box-sizing: border-box;
+	}
+	
+	.stateName {
+	
+		flex-grow: 0
+	}
+	
+	.stateName_tetx {
+	
+		font-size: 40px;
+		font-family: Source Han Sans CN;
+		font-weight: 400;
+		line-height: 58px;
+		color: #AEAEAE;
+		opacity: 1;
+	
+	}
+	.new_stateName_tetx{
+
+font-size: 40px;
+font-family: Source Han Sans CN;
+font-weight: 400;
+line-height: 84px;
+color: #E8321D;
+opacity: 1;
+
+	}
+	.msgName {
+		flex-grow: 1;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 25px 0;
+		box-sizing: border-box;
+	}
+	
+	.msgName_top,
+	.msgName_bottom {
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	
+	.msgName_top span,
+	.msgName_bottom span {
+		text-align: left;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 33%;
+	
+		font-size: 28px;
+		font-family: Source Han Sans CN;
+		font-weight: 500;
+		line-height: 40px;
+		color: #3C4147;
+		opacity: 1;
+	
+	}
+	
+	.particulars_phoneList {}
+	
+	.imageBox {
+		width: 321px;
+		height: 184px;
+	
+		opacity: 1;
+		margin-right: 33px;
+		margin-bottom: 33px;
+	}
+	
+	.imageBox:nth-of-type(even) {
+		margin-right: 0;
+	}
+	
+
+	
+	.van-grid-item__content {
+		background: transparent;
+	}
+	
+	.phone_title {
+	
+		font-size: 31px;
+		font-family: Source Han Sans CN;
+		font-weight: 400;
+	
+		color: #3C4147;
+		opacity: 1;
+		margin-top: 30px;
+		display: inline-block;
+		text-align: left;
+		width: 100%;
+	
+	}
+	.van-toast__text{
+		    white-space: nowrap;
+	}

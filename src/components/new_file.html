@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var aaa = [{
+					id: 1,
+					name: null
+				},
+				{
+					id: 2,
+					name: null
+				},
+				{
+					id: 3,
+					name: null
+				},
+				{
+					id: 4,
+					name: null
+				},
+				{
+					id: 5,
+					name: null
+				},
+				{
+					id: 6,
+					name: null
+				},
+			]
+			var bbb = [{
+					id: 1,
+					name: 'a'
+				},
+				{
+					id: 2,
+					name: 'b'
+				},
+				{
+					id: 3,
+					name: 'c'
+				},
+				{
+					id: 4,
+					name: 'd'
+				},
+				{
+					id: 5,
+					name: '0000'
+				},
+			]
+			function setArr(bbb,aaa){
+				for (var i = 0; i < bbb.length; i++) {
+					for (var j = 0; j < aaa.length; j++) {
+						if (bbb[i].id == aaa[j].id) {
+							aaa.splice(j, 1);
+						}
+					}
+				}
+				bbb = bbb.concat(aaa);
+				return bbb
+			}
+			
+			console.log(setArr(bbb,aaa)); //[{a:1},{a:2},{a:4},{a:3},{a:5}]
+			
+		</script>
+	</body>
+</html>
